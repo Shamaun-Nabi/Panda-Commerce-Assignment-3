@@ -1,5 +1,5 @@
 .container {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .carousel-bg {
@@ -13,12 +13,41 @@
   color: #ff2379;
 }
 .buy-now {
-  background-color: #ff2379;
+  background: linear-gradient(to bottom, #bc4e9c, #f80759); 
   border-radius: 10px;
   border: none;
 }
 .buy-now:hover{
-    background-color: rgb(255, 166, 0);
-    padding: 10px;
+  background-color:red;
+}
+
+.cart1,.cart2,.cart3{
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+.cart1{
+  background: linear-gradient(to right, #cac531, #f3f9a7);
+
+}
+.cart2{
+  background: linear-gradient(to bottom, #da4453, #89216b);
+ 
+}
+.cart3{
+  background: linear-gradient(to bottom, #0575e6, #021b79);
+}
+.categories{
+  color: #fceae8;
+}
+.categories img{
+  width: 100px;
+}
+
+.cart1,.cart2,.cart3:hover{
+  cursor: pointer;
+}
+.card{
+  box-shadow:5px 5px 10px gray;
+  border:none;
 }
 
